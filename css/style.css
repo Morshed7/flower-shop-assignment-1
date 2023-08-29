@@ -1,5 +1,7 @@
 /* .................common css style............... */
-
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
 /* ..............Banner section..................... */
 
 .banner{
@@ -8,10 +10,10 @@
   }
 
   .paragraph-text{
-    margin-bottom: 32pxpx;
+    margin-bottom: 32px;
     color: #7c7778;
     line-height: 30px;
-   font-size: 25px;
+    font-size: 25px;
 }
 .header{
     background-color:#fceef1 ;
@@ -23,6 +25,7 @@
 }
 .banner-heading{
     font-size: 60px;
+    font-weight: 800;
     margin-bottom: -13px;
 }
 .btn-primary{
@@ -42,6 +45,7 @@
     color: black;
     text-align: center;
     font-size: 50px;
+    font-weight: 700;
 }
 .feature_discription{
     color: #7c7778;
@@ -57,8 +61,6 @@
     gap: 30px;
     margin-bottom: 120px;
   }
- 
-
 
 .internal_image1{
 height: 430px;
@@ -70,6 +72,7 @@ padding-top: 70px;
 padding-left: 50px;
 padding-right: 50px;
   }
+
 .internal_image2{
     height: 430px;
     width: 1075px;
@@ -80,6 +83,7 @@ padding-right: 50px;
     padding-left: 50px;
     padding-right: 50px;
   }
+
 .internal_image3{
     height: 432px;
     width: 1075px;
@@ -90,15 +94,14 @@ padding-right: 50px;
     padding-left: 50px;
     padding-right: 50px;
   }
+
   .internal_paragrahp{
     font-size: 25px;
     margin-top: -130px;
     text-align: center;
   }
 
-
 /* ......Hot Deal Section........... */
-
 .hot-deal{
     display: flex;
     align-items: center;
@@ -115,11 +118,12 @@ padding-right: 50px;
     text-align: center;
     font-size: 50px;
     margin-bottom: auto;
+    font-weight: 700;
 }
 .hot-deal-description{
     color: #7c7778;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 30px 150px;
     margin: 2px;
 }
@@ -168,6 +172,7 @@ padding-right: 50px;
     text-align: center;
     font-size: 50px;
     padding-top: 150px;
+    font-weight: 700;
 }
 .extra_description{
     color: white;
@@ -187,14 +192,14 @@ padding-right: 50px;
 .lates-deal{
    background: url(../images/Rectangle\ 9.png);
    background-repeat: no-repeat;
-    background-position: bottom;
-   
-    margin-top: 10px;
+   background-position: bottom;
+   margin-top: 10px;
 }
 .latest-deal-heading{
     color: black;
     text-align: center;
     font-size: 50px;
+    font-weight: 700;
     margin-bottom: auto;
     padding-top: 200px;
 }
@@ -215,9 +220,6 @@ padding-right: 50px;
     margin: 0 auto;
   }
 
-
-
-
 /* ......Footer Flower Shop Section........... */
 .footer_contain{
     background-color: black;
@@ -226,13 +228,14 @@ padding-right: 50px;
     color: white;
     text-align: center;
     font-size: 50px;
+    font-weight: 700;
     margin-bottom: auto;
     padding-top: 150px;
 } 
 .footer-description{
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
 }
 span{
     color: #e55473;
@@ -240,7 +243,7 @@ span{
 .footer_color{
     color: #7c7778;;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     padding-bottom: 80px;
 }
 
