@@ -6,7 +6,6 @@
 
 .banner{
     padding: 150px 200px 100px 300px;
-   
   }
 
   .paragraph-text{
@@ -15,12 +14,12 @@
     line-height: 30px;
     font-size: 25px;
 }
+
 .header{
     background-color:#fceef1 ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
    
 }
 .banner-heading{
@@ -163,9 +162,7 @@ padding-right: 50px;
     padding-top: 80px;
     margin-top: 70px;
     background-size: cover;
-    
-}
-
+  }
 
 .extra_heading{
     color: black;
@@ -184,16 +181,30 @@ padding-right: 50px;
     color: #e55473;
 }
 
+/* ........Latest Deal Section........... */
 
-
-
-/* ......Latest Deal Section........... */
-
-.lates-deal{
-   background: url(../images/Rectangle\ 9.png);
-   background-repeat: no-repeat;
-   background-position: bottom;
-   margin-top: 10px;
+.latest_deal{
+    text-align: center;
+    background: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 130px;
+    padding-top: 50px;  
+    margin-top: 60px; 
+    margin-bottom: 60px;
+}
+.email-form{
+    padding-top: 37px;
+    padding-right: 476px;
+    padding-bottom: 24px;
+    font-size: 13px;
+    border: none;
+    background-color: #d9eff1;
+    border-radius: 5px; 
 }
 .latest-deal-heading{
     color: black;
@@ -201,25 +212,20 @@ padding-right: 50px;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: auto;
-    padding-top: 200px;
+    padding-top: 30px;
 }
 .latest-section-description{
     color: #7c7778;
     text-align: center;
     font-size: 25px;
-    padding: 10px 150px 200px 150px;
-    margin-top: 13px;
-  }
+}
+
   .email-form{
     padding-top: 10px;
     padding: 15px 230px;
     border: none;
   }
-  .position{
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-
+  
 /* ......Footer Flower Shop Section........... */
 .footer_contain{
     background-color: black;
@@ -246,5 +252,7 @@ span{
     font-size: 18px;
     padding-bottom: 80px;
 }
+
+
 
 
