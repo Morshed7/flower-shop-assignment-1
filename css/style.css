@@ -64,6 +64,11 @@
 }
 
 /* ......Instagram section........... */
+.lates-deal{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .all-instagram-img{
     display: flex;
     max-width: 1140px;
@@ -84,11 +89,63 @@
 /* ......Latest Deal Section........... */
 
 .lates-deal{
-    background: url("Rectangle9.png");
+   background: url(../images/Rectangle\ 9.png);
+   background-repeat: no-repeat;
+    background-position: bottom;
+   
+   margin-top: 10px;
 }
+.latest-deal-heading{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: auto;
+    padding-top: 150px;
+}
+.latest-section-description{
+    color: #7c7778;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 150px 200px 150px;
+    margin-top: 13px;
+  }
+  .email-form{
+    padding-top: 10px;
+    padding: 15px 230px;
+    border: none;
+  }
+  .position{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
 
 /* ......Extra Section........... */
 
 
 
 /* ......Footer Flower Shop Section........... */
+.footer_contain{
+    background-color: black;
+}
+.footer-heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: auto;
+    padding-top: 150px;
+} 
+.footer-description{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+span{
+    color: #e55473;
+}
+.footer_color{
+    color: #7c7778;;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 80px;
+}
